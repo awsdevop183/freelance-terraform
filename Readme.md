@@ -15,17 +15,19 @@ Terraform workflow
 
 To initialize and download provider plugins 
 
-```terraform init ```
+```terraform init```
 
 To get blueprint of configuration
 
-``` terraform plan ```
+```terraform plan```
 
 To apply changes 
 
-``` terraform apply ```
+```terraform apply```
 
 To rename a resource in statefile
 For instance, I am assuming aws_vpc
 
-``` terraform state mv aws_vpc.oldname aws_vpc.newname ``` once you run this command, make appropriate changes in configuration files.
+```terraform state mv aws_vpc.oldname aws_vpc.newname``` once you run this command, make appropriate changes in configuration files.
+
+Use ```terraform fmt``` for formatting the code and ```terraform validate``` to validate the code
