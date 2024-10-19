@@ -24,3 +24,8 @@ To get blueprint of configuration
 To apply changes 
 
 ``` terraform apply ```
+
+To rename a resource in statefile
+For instance, I am assuming aws_vpc
+
+``` terraform state mv aws_vpc.oldname aws_vpc.newname ``` once you run this command, make appropriate changes in configuration files.
