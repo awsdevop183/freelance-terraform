@@ -15,4 +15,11 @@ variable "subnets" {
 
 
 
+variable "prod-vpc-cidr" {
+  
+}
+
+
+
+
 # it looks for terraform.tfvars
