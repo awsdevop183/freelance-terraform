@@ -34,7 +34,7 @@ Use ```terraform fmt``` for formatting the code and ```terraform validate``` to 
 
 
 To import a resource
-```terraform import aws_subnet.resource-name subnet-id" ``` make sure to create an empty resource before importing
+```terraform import aws_subnet.resource-name subnet-id``` make sure to create an empty resource before importing
 
 
 To remove a resource from Terraform control
