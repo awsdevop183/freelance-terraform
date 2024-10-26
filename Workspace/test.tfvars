@@ -1,0 +1,6 @@
+vpc-cidr = "172.29.0.0/16"
+vpc-name = "Test"
+pub-sub-1 = "172.29.1.0/24"
+private-sub-1 = "172.29.2.0/24"
+ami = "ami-0866a3c8686eaeeba"
+ec2-tags = "Nginx-test"
