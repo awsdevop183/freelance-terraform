@@ -3,5 +3,6 @@ terraform {
     bucket = "madhukarreddyeng.com"
     key    = "prod statefile"
     region = "us-east-1"
+    dynamodb_table = "terraform-lock"
   }
 }
